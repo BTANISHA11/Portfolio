@@ -15,9 +15,9 @@ const Header = ( ) => {
                     <div className="closed">
                         <Close className='close'/>
                     </div>
-                    <li>
+                    {/* <a>
                         <Link to = '/'>Home </Link>
-                    </li>
+                    </a>
                     <li>
                         <Link to = '/'>About </Link>
                     </li>
@@ -30,7 +30,8 @@ const Header = ( ) => {
                     <li>
                         <Link to = '/'>Contact </Link>
                     </li>
-                    
+                     */}
+                     <a href={Link}>Home</a>
                 </ul>
             </nav>
 
